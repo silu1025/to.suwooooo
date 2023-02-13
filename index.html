@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ /* 이서윤체 폰트 적용을 위한 코드 */
+ @font-face {
+        font-family: "LeeSeoyun";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      /* body태그 자체에 css 요소 부여 */
+body {
+	font-family: "LeeSeoyun";
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	background-image: url("./배경.jpg");
+    background-position: 0;
+    background-size:cover;
+}
+
+.container{
+    width: 390px;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.photos{
+    margin-top: 30px;
+}
+
+.photo-frame{
+    background-color: white;
+    margin: 15px 20px;
+height: 200px;
+background-size: cover;
+position: relative;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.f-title{color: rgb(255, 90, 112);
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.f-date{ color: rgb(58, 58, 58);
+font-size: 15px;
+font-weight: 500;
+line-height: 2;
+}
+
+#image1{
+    background-image: url(./이미지1.jpg);
+}
+#image2{
+    background-image: url(./이미지2.jpg);
+}
+#image3{
+    background-image: url(./이미지3.jpg);
+}
+#image4{
+    background-image: url(./이미지4.jpg);
+}
+
+.photo_description{
+    color: white; 
+    background-color: black;
+    background-color: rgba(20, 20, 20, 0.5);
+    width: fit-content;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+
+    transform: translate(-50%);
+    left: 50%;
+}
+
+</style>
+<body>
+
+    
+<div class="container">
+    <div class="photos" >
+        <div id="image1" class="photo-frame">
+            <span id="desc1" class="photo_description">
+                정모이후 첫만남
+            </span>
+        </div>
+        <div id="image2" class="photo-frame">
+            <span id="desc2" class="photo_description">
+               첫연습/마지막연습
+            </span>
+        </div>
+        <div id="image3" class="photo-frame">
+            <span id="desc3" class="photo_description">
+                우쑥우쑥 엔딩무대
+            </span>
+        </div>
+        <div id="image4" class="photo-frame">
+            <span id="desc4" class="photo_description">
+                이제는 남자친구
+            </span>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p class="f-title"> 2023.02.14
+        </p>
+        <p class="f-date"> 
+            쑥하-! 발렌타인데이지만 우리 써우 다이어트에 방해될까봐 앵쑤기가 초콜렛 한바구니 대신 편지를 준비해봤어여
+            
+            
+         
+            <p class="f-date"> 
+                코딩 처음 해보는건데 정말 이 간단한 페이지가 뭐라고 영어 너무 많이 나오고 머리 아픈거야 근데 진짜 재밌다 크크
+ 
+                <p class="f-date"> 
+                    앵수기는 원래 인생에 욕심없이 사는 사람이였는데 우리 써우 만나고부터 계속 멋있는 사람 되고 싶어가지구
+                    이것 저것 알아보고 배워보느라 쉴틈이 없는거에여
+                    <p class="f-date"> 
+                        서로 발전하는 관계가 가장 좋다고 했는데 정말인지 서우를 만난건 일생 최대 행운잉거야 >_<
+                           
+                        <p class="f-date"> 
+                            오락가락 쑤기랑 만나줘서 고맙씀미다 앞으로 함께할 모든 날들을 사랑합니다 
+     
+                        <p class="f-date"> 
+                            - 오락쑥 올림
+    
+                   </div>
+</div>
+</body>
+</html
